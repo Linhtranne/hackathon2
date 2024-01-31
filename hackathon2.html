@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin.html</title>
+    <link rel="stylesheet" href="hackathon2.css">
+</head>
+<body>
+    <script src="./hackcathon2.js"></script>
+    <h1>My project</h1>
+    <form id="addProjectForm">
+        <label for="projectName"></label>
+        <input type="text" id="projectName" placeholder="Project Name" required>
+
+        <label for="imageUrl"></label>
+        <input type="url" id="imageUrl" placeholder="Image URL" required>
+
+        <label for="link"></label>
+        <input type="url" id="link" placeholder="Link" required>
+
+        <label for="tags"></label>
+        <input type="text" id="tags" placeholder="Tags" required>
+
+        <button type="button" onclick="addProject()">+ Add project</button>
+    </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th><b>#</b></th>
+                <th><b>Project Name</b></th>
+                <th><b>Image URL</b></th>
+                <th><b>Link</b></th>
+                <th><b>Tags</b></th>
+                <th><b>Action</b></th>
+            </tr>
+        </thead>
+        <tbody id="projectTableBody">
+            
+        </tbody>
+
+    </table>
+    <script>
+        
+    </script>
+    
+    
+</body>
+</html>
